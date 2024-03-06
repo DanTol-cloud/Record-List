@@ -1,0 +1,14 @@
+.records-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+    border: solid #0000b3;
+    border-width: 1px 15px;
+    border-radius: 30px;
+    gap: 25px;
+}

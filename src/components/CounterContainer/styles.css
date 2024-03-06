@@ -1,0 +1,21 @@
+.counter-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.completed {
+    color: #00cc00;
+}
+
+.current {
+    color: #ff0000;
+}
+
+@media (max-width: 550px) {
+    .counter-container {
+        flex-direction: column;
+    }
+}

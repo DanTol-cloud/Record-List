@@ -1,0 +1,61 @@
+.add-new-rec-container {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+    border: solid #0000b3;
+    border-width: 15px 2px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.add-new-rec-container > h4 {
+    color: #ff3300;
+}
+
+.new-rec-label {
+    display: flex;
+    align-self: center;
+}
+
+.new-rec-label > h3 {
+    font-size: 24px;
+}
+
+.input-rec-container {
+    display: flex;
+    justify-content: center;
+    background-color: #0000b3;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.new-rec-input {
+    flex: 1;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+}
+
+.new-rec-button {
+    flex: 0 1 auto;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    background-color: #e6e6ff;
+    cursor: pointer;
+}
+
+.new-rec-button[disabled]{
+    background-color: #0000b3;
+    cursor: not-allowed;
+}
+
+.new-rec-button-text {
+    color: #00001a;
+}
+
+.new-rec-button[disabled] > .new-rec-button-text {
+    color: #9999ff;
+}

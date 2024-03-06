@@ -1,0 +1,12 @@
+.record-item {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000066;
+    border-radius: 15px;
+    border-top-width: 15px;
+    width: 100%;
+    cursor: pointer;
+}
